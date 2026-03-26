@@ -1,0 +1,23 @@
+num1=int(input("ingrese un numero: "))
+num2=int(input("ingrese otro numero: "))
+operadores = (input(" integra un operador "))
+if operadores == "+":
+    resultado = num1 + num2 
+    print (f"la suma es {resultado } ")
+
+elif operadores == "-":
+    resultado = num1 - num2
+    print (f"la resta es {resultado} ")
+
+
+elif operadores == "*":
+    resultado = num1 * num2
+    print (f"la multiplicacion es {resultado} ")
+
+
+elif operadores == "/" :
+     resultado =num1 / num2
+     print (f" la divicion es {resultado }")
+
+
+
