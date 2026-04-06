@@ -25,3 +25,21 @@ print(f"producto: {nombre} / precio: {precio} / cantidad: {cantidad} / total: {c
 
 #el programa registra un producto y valida los datos ingresados 
 #calcula los datos y muestra el resultado en pantalla
+
+estudiantes = []
+
+#lista de esanimales
+# Variable para controlar el menú
+opcion = "0"
+
+while opcion != "6":
+
+    print("\n--- MENÚ ---")
+    print("1. registra")
+    print("2.  mostrar")
+    print("3. Buscar ")
+    print("4. Actualizare")
+    print("5. Eliminar")
+    print("6. Salir")
+
+    opcion = input("Seleccione una opción: ")
