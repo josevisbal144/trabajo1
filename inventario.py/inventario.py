@@ -60,3 +60,21 @@ while True:
 #usar bucles y ciclos dentro de un programa real 
 #agregar productos y calcular estadisticas de este invintario 
 #
+# Registrar estudiante
+    if opcion == "1":
+        id_eproducto = input("Ingrese ID: ")
+        nombre = input("Ingrese nombre: ")
+        cantidad = int(input("Ingrese edad: "))
+        grado = input("Ingrese curso: ")
+        estado = input("Ingrese estado: ")
+
+        productoees = {
+            "id": id_producto,
+            "nombre": nombre,
+            "edad": edad,
+            "curso": curso,
+            "estado": estado
+        }
+
+        esproductos.append(es)
+        print("producto registrado")
